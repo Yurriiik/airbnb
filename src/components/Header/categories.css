@@ -1,0 +1,72 @@
+.categories__row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories__filter-btn {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px 1px;
+  width: 90px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.categories__filter-text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 133%;
+  text-align: center;
+  color: #222;
+}
+
+.custom-next-button {
+  cursor: pointer;
+}
+
+.custom-next-button img {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+}
+
+.categories__list {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mySwiper .swiper-slide {
+  flex-shrink: 0;
+  width: auto;
+  text-align: center;
+}
+
+.categories__list-item {
+  text-align: center;
+}
+
+.categories__item-img {
+  max-width: 80px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.categories__item-text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #000;
+}
+
+.swiper-button-prev {
+  display: none;
+}/*# sourceMappingURL=categories.css.map */

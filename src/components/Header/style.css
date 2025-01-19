@@ -1,0 +1,69 @@
+.header {
+  border-bottom: 1px solid #717171;
+}
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.header__search {
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  width: 352px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  justify-content: center;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 1310px;
+  width: 100%;
+}
+
+.seacrhbar__btn-search {
+  width: 32px;
+  height: 32px;
+  background-color: #FF385C;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seacrhbar__btn:not(:last-child) {
+  border-right: 1px solid #DDDDDD;
+  height: 24px;
+}
+
+.searchbar__btns-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.user__menu {
+  display: flex;
+  align-items: center;
+}
+
+.user__menu-menu {
+  border: 1px solid #ddd;
+  border-radius: 21px;
+  padding: 6px 6px 6px 13px;
+  width: 77px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user__menu-account {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

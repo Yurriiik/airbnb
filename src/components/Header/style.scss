@@ -1,0 +1,133 @@
+.header {
+    border-bottom: 1px solid #717171;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__search {
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    width: 352px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1310px;
+    width: 100%;
+}
+
+.searchbar__btns-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.seacrhbar__btn:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.seacrhbar__btn-search {
+    width: 32px;
+    height: 32px;
+    background-color: #FF385C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user__menu-menu {
+    border: 1px solid #ddd;
+    border-radius: 21px;
+    padding: 6px 13px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 170px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 7px;
+    opacity: 0;
+    transform: translateY(-20px);
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.menu.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.menu__nav-item {
+    font-weight: 400;
+    font-size: 15px;
+    color: #717171;
+    transition: color 0.3s ease;
+}
+
+.menu__nav-item:hover {
+    font-weight: 500;
+    color: #222;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 10px;
+    cursor: pointer;
+    z-index: 15;
+}
+
+.menu__nav-list {
+    display: grid;
+    gap: 15px;
+}
+
+.menu-toggle__line {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle.open .menu-toggle__line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.open .menu-toggle__line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.open .menu-toggle__line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}

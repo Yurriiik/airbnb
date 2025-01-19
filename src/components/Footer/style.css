@@ -1,0 +1,35 @@
+.footer__wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__information {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__information-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: #222;
+}
+
+.footer__information-wraper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__menu {
+  display: flex;
+  align-items: center;
+}
+
+.footer__menu-wrapper {
+  display: flex;
+  gap: 13px;
+}/*# sourceMappingURL=style.css.map */
